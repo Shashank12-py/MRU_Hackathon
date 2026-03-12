@@ -72,3 +72,44 @@ The goal is to **prevent financial loss and protect citizens from psychological 
 ---
 
 # 🏗️ System Architecture
+User Input (Message / Call Transcript)
+|
+v
+Text Preprocessing
+|
+v
+NLP Feature Extraction
+|
+v
+Machine Learning Model
+|
+v
+Scam Detection Engine
+|
+v
+Risk Alert System
+
+
+---
+
+# 📂 Project Structure
+
+
+digital-arrest-shield
+│
+├── dataset
+│ └── scam_messages.csv
+│
+├── model
+│ └── train_model.py
+│
+├── app
+│ ├── app.py
+│ └── templates
+│ └── index.html
+│
+├── utils
+│ └── preprocessing.py
+│
+├── requirements.txt
+└── README.md
